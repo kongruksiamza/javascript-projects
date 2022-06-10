@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+}
+.title{
+    margin: 0;
+}
+.subtitle{
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
+.header{
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+}
+.header input{
+    background: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.header input:focus{
+    outline: none;
+}
+.country-list{
+    background: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.country-list li{
+    display: flex;
+    padding: 20px;
+}
+.country-list img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.country-list .info{
+    margin-left: 10px;
+}
+.country-list .info h4{
+    margin: 0 0 10px;
+}
+.country-list .info p{
+    font-size: 12px;
+}
+.country-list li:not(:last-of-type){
+    border-bottom: 1px solid #eee;
+}
+.country-list li.hide{
+    display: none;
+}
