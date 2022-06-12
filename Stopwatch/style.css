@@ -1,0 +1,44 @@
+html{
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 45rem;
+    text-align: center;
+    padding: 0;
+}
+.time{
+    width: 100%;
+    font-size: 4rem;
+    background: purple;
+    padding: 4rem 5px;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 3rem;
+}
+button{
+    padding: 5px 1rem;
+    border: none;
+    outline: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+.start{
+    background: green;
+}
+.pause{
+    background: orange;
+}
+.reset{
+    background: red;
+}
