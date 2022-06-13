@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 30rem;
+    max-width: 800px;
+    background: #333;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+form{
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+form>*{
+    padding-bottom: 1.2rem;
+}
+input,button{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.btn{
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.result{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.7rem;
+}
