@@ -22,3 +22,6 @@
 |   18  | [Random Image](https://github.com/kongruksiamza/javascript-projects/tree/main/RandomImage-UnsplashAPI)|
 |   19  | [นาฬิกาจับเวลา](https://github.com/kongruksiamza/javascript-projects/tree/main/Stopwatch)|
 |   20  | [แอพคำนวณค่าดัชนีมวลกาย (BMI)](https://github.com/kongruksiamza/javascript-projects/tree/main/BMI-Calculator)|
+
+# เอกสารประกอบการสอน
+[เอกสาร (pdf)](https://mega.nz/file/XPQzUSAT#YetqWTMAazzEXUjPrmDFXgSMrOMd3spuPB7venxk-cI)
