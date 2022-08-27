@@ -1,16 +1,7 @@
-const smallImg = document.querySelectorAll(".gallery img")
-const fullImg = document.querySelector(".full-image")
-const modal = document.querySelector(".modal")
-smallImg.forEach(img=>{
-    img.addEventListener("click",()=>{
-        const fullsize = img.getAttribute("alt")
-        const path = `foods-images/full/${fullsize}.jpg`
-        fullImg.src=path
-        modal.classList.add("open")
-    })
-})
-modal.addEventListener("click",(e)=>{
-    if(e.target.classList.contains("modal")){
-        modal.classList.remove("open")
-    }
-})
+for (var i = 1; i <= 8; i++) {
+    document.getElementById('images').innerHTML += `<div class="gallery-img">
+    <a href="foods-images/small/s_${i}.jpg" data-lightbox="gallery">
+        <img src="foods-images/small/s_${i}.jpg" alt="${i}">
+    </a>
+</div>`
+}
