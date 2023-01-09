@@ -4,9 +4,7 @@ const input = document.querySelector("input")
 input.addEventListener("keyup",()=>{
     let vowelCount = 0
     for (let word of input.value){
-        if(word.match(/([aeiou])/i)){
-            vowelCount++
-        }
+        word.match(/([aeiou])/i) ? vowelCount++ : ""
     }
     countEl.innerText=`${vowelCount}`
 })
