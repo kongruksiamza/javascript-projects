@@ -15,15 +15,17 @@ const calculateBMI = (bmi) => {
 }
 
 for (let input of inputs) {
-    input.addEventListener(`input`, e => {
+    input.addEventListener(`input`, () => {
 
         let weight = document.getElementById("weight").value
         let height = document.getElementById("height").value
-
-        if (weight === "" || isNaN(weight)) {
+        
+        // start weird
+        if (weight === '') {
             result.innerHTML = "กรุณาป้อนน้ำหนักของคุณ"
-        } else if (height === "" || isNaN(height)) {
+        } else if (height === '') {
             result.innerHTML = "กรุณาป้อนส่วนสูงของคุณ"
+        // end weird
         } else {
             calculateBMI((weight / Math.pow(height /= 100, 2)).toFixed(2))
         }
