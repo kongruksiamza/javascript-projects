@@ -3,16 +3,11 @@ const filter = document.getElementById("filter")
 const listItem = []
 
 filter.addEventListener("input",(e)=>{
-    // thailand => thailand
-    const search = e.target.value.toLowerCase()
-    listItem.forEach(item=>{
-        if(item.innerText.toLowerCase().includes(search)){
-            //แสดงรายการ
-            item.classList.remove("hide")
-        }else{
-            //ซ่อนรายการไม่เกี่ยวข้อง
-            item.classList.add("hide")
-        }
+    const search = e.target.value
+    const re = new RegExp(search, "i")
+    listItem.forEach(item=> {
+        itemText = item.innerText.split(/\r?\n/)[0]
+        re.test(itemText) ? item.classList.remove("hide") : item.classList.add("hide")
     })
 })
 
