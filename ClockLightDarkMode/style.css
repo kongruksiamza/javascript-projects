@@ -37,3 +37,7 @@ html.dark{
 html{
     transition: all 0.5s ease-in;
 }
+
+button {
+    margin-top: 15vh;
+}
