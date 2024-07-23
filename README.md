@@ -1,7 +1,7 @@
 # โค้ดประกอบการสอน (Source Code)
 
-| ลำดับที่ |                   หัวข้อโปรเจกต์             |
-|:----:|:------------------------------------------:|
+| ลำดับที่ |                   หัวข้อโปรเจกต์             |ตัวอย่างโปรเจกต์ (Live Preview)|
+|:----:|:------------------------------------------:|:-----------:|
 |   01  | [Click to Copy](https://github.com/kongruksiamza/javascript-projects/tree/main/ClicktoCopy)|
 |   02  | [Clock Light/Dark Mode](https://github.com/kongruksiamza/javascript-projects/tree/main/ClockLightDarkMode)|
 |   03  | [Input Character Count](https://github.com/kongruksiamza/javascript-projects/tree/main/InputCharacterCount)| 
@@ -22,9 +22,6 @@
 |   18  | [Random Image](https://github.com/kongruksiamza/javascript-projects/tree/main/RandomImage-UnsplashAPI)|
 |   19  | [นาฬิกาจับเวลา](https://github.com/kongruksiamza/javascript-projects/tree/main/Stopwatch)|
 |   20  | [แอพคำนวณค่าดัชนีมวลกาย (BMI)](https://github.com/kongruksiamza/javascript-projects/tree/main/BMI-Calculator)|
-
-# เอกสารประกอบการสอน
-- [JavaScript Real-World Project(2022)](https://mega.nz/file/XPQzUSAT#YetqWTMAazzEXUjPrmDFXgSMrOMd3spuPB7venxk-cI)
 
 ## ☕ ช่องทางการสนับสนุน
 - [🎓 คอร์สเรียนบน Udemy](https://github.com/kongruksiamza/udemy-course)
