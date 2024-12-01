@@ -22,10 +22,6 @@
 |   18  | [Random Image](https://github.com/kongruksiamza/javascript-projects/tree/main/RandomImage-UnsplashAPI)|-|
 |   19  | [นาฬิกาจับเวลา](https://github.com/kongruksiamza/javascript-projects/tree/main/Stopwatch)|[Live Preview](https://codepen.io/kongruksiamstudio/full/VwJjrWE)|
 |   20  | [แอพคำนวณค่าดัชนีมวลกาย (BMI)](https://github.com/kongruksiamza/javascript-projects/tree/main/BMI-Calculator)|[Live Preview](https://codepen.io/kongruksiamstudio/pen/wvLWPqv)|
-
-## 🚀 Guideline & Documents
-- แนวทางการเรียนรู้การพัฒนาเว็บแอพพลิเคชั่น (Web Development) [อ่านบทความ](https://github.com/kongruksiamza/web-guideline)
-- เอกสารสอนเขียนโปรแกรมฟรี (.pdf) [ดาวน์โหลด](https://github.com/kongruksiamza/ebook-for-education)
   
 ## 📢 ติดตามข่าวสารอื่นๆของเราได้ที่
 <div id="badges">
